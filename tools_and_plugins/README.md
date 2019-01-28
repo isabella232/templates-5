@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://bitrise.io"><img src="https://raw.githubusercontent.com/trapacska/templates/master/assets/cli_logo.png" alt="Bitrise" width="888"></a>
+  <a href="https://bitrise.io"><img src="assets/cli_logo.png" alt="Bitrise" width="888"></a>
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@ Some of our sub-sites if you are new to Bitrise and want read more about Workflo
 
 <p align="center">
   <a href="https://bitrise.io">
-    <img src="https://raw.githubusercontent.com/trapacska/templates/master/assets/bitrise_cli_loop.gif" alt="CLI in use" width="888"></img>
+    <img src="assets/bitrise_cli_loop.gif" alt="CLI in use" width="888"></img>
   </a>
 <p>
 
