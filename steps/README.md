@@ -36,8 +36,6 @@
 
 ## How to run this step from source
 
-#### Using Bitrise CLI
-
 1. Clone this repository
 1. `cd` to the cloned repository's root
 1. Create a bitrise.yml (if not yet created)
@@ -55,27 +53,6 @@
     >         - my_input: "my input value"
     > ```
 1. Run the workflow: `bitrise run my-workflow`
-
-#### Running from terminal
-
-- If the step uses Go toolkit:
-    - Clone this repository _(if the Step is Go based then clone under the package's GOPATH for example: $GOPATH/src/github.com/bitrise-steplib/bitrise-step-flutter-build)_
-    - `cd` to the cloned repository's root
-    - Run `go run *.go` and set the inputs from the `step.yml` as envs for the command
-        > For example:
-        > ```sh
-        > example_step_input="my custom step input" go run *.go
-        > ```
-
-- If the step uses Bash toolkit:
-    - Clone this repository
-    - `cd` to the cloned repository's root
-    - Run `./step.sh` and set the inputs from the `step.yml` as envs for the command
-        > For example:
-        > ```sh
-        > example_step_input="my custom step input" ./step.sh
-        > ```
-
 
 ## About
 This is an official Step managed by Bitrise.io and is available in the [Workflow Editor](https://www.bitrise.io/features/workflow-editor) and in our [Bitrise CLI](https://github.com/bitrise-io/bitrise) tool. If you seen something in this readme that never before please visit some of our knowledge base to read more about that:
