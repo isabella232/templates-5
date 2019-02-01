@@ -1,6 +1,6 @@
 <h1 align="center"><img src="https://app.bitrise.io/app/a0bac497f75e1490/status.svg?token=A3abbQcGjDvqyzGUkdVukw&branch=master" alt="Latest Version"></img> StepLib</h1>
 
-<h4 align="center">Bitrise StepLib is our versioned collection of the Bitrise Steps.<br>The visual representation of the StepLib can be found here: <a href="https://www.bitrise.io/integrations/steps">Integrations</a></h4>
+<h4 align="center">Bitrise StepLib is a versioned collection of the Bitrise Steps.<br>The visual representation of the StepLib can be found here: <a href="https://www.bitrise.io/integrations/steps">Integrations</a></h4>
 
 <p align="center">
 Some of our sub-sites if you are new to Bitrise and want read more about Steps and our products:
@@ -37,16 +37,6 @@ When you have a Step repository you can share that to our StepLib so it will bec
 >```
 
 
-# Abandoned Step policy
-
-We try to keep this Step Library up-to-date and active. Steps shared in this collection have to be actively maintained to receive fixes / updates when required (e.g. security issue fixes or general usability fixes).
-
-**If you're a Step maintainer** you're not required to accept every Pull Request sent to your Step **but you should be reachable within a reasonable timeframe**. If we try to contact you several times regarding an important fix/update in your Step and you refuse to answer for several weeks *we might deprecate, remove or replace your Step* in the collection. Abandoned Steps can be a threat for those who use it, please keep this in mind if you decide to share your Step with others!
-
-**If you shared a Step but you're no longer able to or you don't want to maintain it** please create a GitHub issue in this repository (https://github.com/bitrise-io/bitrise-steplib).
-
-**If you're a user of a Step which has critical (security or functionality) issues** please create a ticket in the Step's Issue Tracker (every Step declares the preferred way of reporting issues with the `support_url` attribute - [see](https://github.com/bitrise-io/bitrise-steplib/blob/master/steps/activate-ssh-key/3.1.0/step.yml#L15)) first. If you don't get a response from the Step's maintainer for an extended period (reasonably, in general, for more than a couple of weeks) please create a GitHub issue in this repository (https://github.com/bitrise-io/bitrise-steplib) and we'll try to resolve the issue, following the Abandoned Step policy. *Please be patient* and keep in mind that everyone who contribute to this collection does that with an intention to help You by providing a Step for you to use, don't be rude to Step maintainers!
-
 # Contribution
 
 ## Requirements
@@ -75,3 +65,13 @@ You can share your Step or step version with the [bitrise CLI](https://github.co
 1. Then run: `bitrise run share-this-step` to share the step (version) you specified in the `envs`
 1. Send the Pull Request, as described in the logs of `bitrise run share-this-step`
 
+
+# Abandoned Step policy
+
+We try to keep this Step Library up-to-date and active. Steps shared in this collection have to be actively maintained to receive fixes / updates when required (e.g. security issue fixes or general usability fixes).
+
+**If you're a Step maintainer** you're not required to accept every Pull Request sent to your Step **but you should be reachable within a reasonable timeframe**. If we try to contact you several times regarding an important fix/update in your Step and you refuse to answer for several weeks *we might deprecate, remove or replace your Step* in the collection. Abandoned Steps can be a threat for those who use it, please keep this in mind if you decide to share your Step with others!
+
+**If you shared a Step but you're no longer able to or you don't want to maintain it** please create a GitHub issue in this repository (https://github.com/bitrise-io/bitrise-steplib).
+
+**If you're a user of a Step which has critical (security or functionality) issues** please create a ticket in the Step's Issue Tracker (every Step declares the preferred way of reporting issues with the `support_url` attribute - [see](https://github.com/bitrise-io/bitrise-steplib/blob/master/steps/activate-ssh-key/3.1.0/step.yml#L15)) first. If you don't get a response from the Step's maintainer for an extended period (reasonably, in general, for more than a couple of weeks) please create a GitHub issue in this repository (https://github.com/bitrise-io/bitrise-steplib) and we'll try to resolve the issue, following the Abandoned Step policy. *Please be patient* and keep in mind that everyone who contribute to this collection does that with an intention to help You by providing a Step for you to use, don't be rude to Step maintainers!
