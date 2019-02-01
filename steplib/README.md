@@ -1,6 +1,6 @@
 <h1 align="center"><img src="https://app.bitrise.io/app/a0bac497f75e1490/status.svg?token=A3abbQcGjDvqyzGUkdVukw&branch=master" alt="Latest Version"></img> StepLib</h1>
 
-<h4 align="center">Bitrise StepLib is our versioned collection of the Bitrise Steps.<br>This is the repository that all of our Steps that is visible in our <a href="https://www.bitrise.io/features/workflow-editor">Workflow Editor</a> and can be used in <a href="https://github.com/bitrise-io/bitrise">Bitrise CLI.</a></h4>
+<h4 align="center">Bitrise StepLib is our versioned collection of the Bitrise Steps.<br>The visual representation of the StepLib can be found here: <a href="https://www.bitrise.io/integrations/steps">Integrations</a></h4>
 
 <p align="center">
 Some of our sub-sites if you are new to Bitrise and want read more about Steps and our products:
@@ -10,10 +10,6 @@ Some of our sub-sites if you are new to Bitrise and want read more about Steps a
   <a href="https://blog.bitrise.io">blog.bitrise.io</a>
 </p>
 
-
-# Feedback
-
-Feel free to send us feedback on [Twitter](https://twitter.com/bitrise) or [file an issue](https://github.com/bitrise-io/bitrise/issues/new). Feature requests, pull requests are always welcome. If you wish to contribute, please take a quick look at the [Contribution](#contribution) section. If there's anything you'd like to chat about, please feel free to join our public [Slack](https://chat.bitrise.io/) workspace, or [Discuss](https://discuss.bitrise.io/) site.
 
 # Requirements
 
@@ -67,3 +63,7 @@ When you have a Step repository you can share that to our StepLib so it will bec
 >deprecate_notes: |
 >  This step is deprecated, some 3rd party service is now abandoned. Please use "another" step instead.
 >```
+
+# Feedback
+
+Feel free to send us feedback on [Twitter](https://twitter.com/bitrise) or [file an issue](https://github.com/bitrise-io/bitrise-steplib/issues/new).
