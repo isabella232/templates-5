@@ -32,9 +32,9 @@
 
 1. Fork this repository
 1. Make changes
-1. Send a PR to our team
+1. Submit a PR
 
-## How to run this step
+## How to run this step from source
 
 #### Using Bitrise CLI
 

@@ -14,7 +14,7 @@
   </a>
 </p>
 
-<h4 align="center">Bitrise CLI is a Command Line Interface for running your Workflows and automate your local development processes (or almost anything) with a single terminal command. To see which steps you can use in your Workflows visit our <a href="https:/github.com/bitrise-io/bitrise-steplib">StepLib</a> or the <a href="https://app.bitrise.io/integrations">Integrations</a> page.
+<h4 align="center">Bitrise CLI is a Command Line Interface for running your Workflows and automate your local development processes (or almost anything) with a single terminal command.
 </h4>
 
 <p align="center">
@@ -33,10 +33,6 @@ Some of our sub-sites if you are new to Bitrise and want read more about Workflo
   </a>
 <p>
 
-# Feedback
-
-Feel free to send us feedback on [Twitter](https://twitter.com/bitrise) or [file an issue](https://github.com/bitrise-io/bitrise/issues/new). Feature requests, pull requests are always welcome. If you wish to contribute, please take a quick look at the [Contribution](#contribution) section. If there's anything you'd like to chat about, please feel free to join our public [Slack](https://chat.bitrise.io/) workspace, or [Discuss](https://discuss.bitrise.io/) site.
-
 # Install and Setup
 
 #### Homebrew:
@@ -48,11 +44,6 @@ brew update && brew install bitrise
 
   [https://github.com/bitrise-io/bitrise/releases](https://github.com/bitrise-io/bitrise/releases) (Check a release for instructions)
 
-#### From source (You'll need Go):
-  ```
-  go get -u github.com/bitrise-io/bitrise
-  ```
-  If you have `$GOPATH/bin` added to your `$PATH` then you can call `bitrise` instantly
 
 #### To build from source
 
@@ -435,6 +426,10 @@ COMMAND HELP: bitrise COMMAND --help/-h
 
 </p>
 </details>
+
+# Feedback
+
+Feel free to send us feedback on [Twitter](https://twitter.com/bitrise) or [file an issue](https://github.com/bitrise-io/bitrise/issues/new). Feature requests, pull requests are always welcome. If you wish to contribute, please take a quick look at the [Contribution](#contribution) section. If there's anything you'd like to chat about, please feel free to join our public [Slack](https://chat.bitrise.io/) workspace, or [Discuss](https://discuss.bitrise.io/) site.
 
 # Contribution
 - Fixing in source:
