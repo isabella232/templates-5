@@ -23,10 +23,16 @@
 
 ## Outputs
 
+### Exported Environment variables
+
 - BITRISE_APK_PATH: The created .apk file's path
     > Description if any
 - BITRISE_APK_PATH_LIST: Another title here
 - ANOTHER_SAMPLE_ENV: Another title here
+
+### Deployed Artifacts
+
+- lint report file: $BITRISE_DEPLOY_DIR/lint_report_file.html
 
 ## Contribute
 
